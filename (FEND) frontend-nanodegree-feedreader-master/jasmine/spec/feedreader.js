@@ -79,7 +79,7 @@ $(function() {
 
 			it('The menu is hide when clicked again', function () {
 					$('.menu-icon-link').trigger('click');
-					expect($('.menu-hidden').is(':visible')).toBe(true);
+					expect($('body').hasClass('menu-hidden').toBe(true);
 			});
 		});
 				
